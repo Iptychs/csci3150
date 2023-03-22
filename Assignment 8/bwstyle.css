@@ -55,7 +55,6 @@ p, li {
 
 header {
   margin-bottom: 10px;
-  width: 100%;
   display: flex;
   flex-flow: row wrap;
 }
@@ -63,7 +62,6 @@ header {
 body > * {
   background-color: red;
   padding: 1%;
-  width: 98%;
 }
 
 main, header, nav, article, aside, footer, section {
@@ -114,11 +112,11 @@ nav a, nav span {
 
 /* || main layout */
 
-/* original main style
+
 main {
   display: flex;
 } 
- */
+ 
 
 article, section {
   flex: 4;
@@ -142,19 +140,16 @@ aside img {
 
 footer {
   margin-top: 10px;
-  width: 100%;
-  min-width: 600px;
 }
 
 /* HK additions */
 
 main {
   flex: 3;
-  width: 100%;
 }
 
 .flex-container {
-  background-color: rgba(0, 255, 0, 0.5);
+  background-color: rgba(0, 255, 0, 0.5); 
   padding: 1%;
   flex-wrap: wrap;
 }
