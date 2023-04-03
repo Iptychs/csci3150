@@ -58,7 +58,7 @@ input[type=submit] {
 	min-width: 200px;
 	margin-left: 5px;
 	margin-top: 15px;
-	background-color: rgb(0, 68, 0);
+	background-color: rgb(5, 181, 5);
 }
 
 select:focus, select:active, input:focus, input:Active, input:focus + label, input:active + label, label[for]:focus, label[for]:active {
