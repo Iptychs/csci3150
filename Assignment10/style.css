@@ -1,0 +1,67 @@
+h1, h2 {
+  color: rgb(3, 77, 3);
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  color: rgb(22, 22, 22);
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  border: 6px solid red;
+}
+
+ol {
+  border: 8px solid purple;
+}
+
+ol, ul {
+  padding: 5px 20px;
+  border-radius: 4px;
+}
+
+h1, strong {
+  color: blue;
+}
+
+em {
+  color: gray;
+}
+
+header {grid-area: heady;}
+main {grid-area: mainy; background: powderblue; max-height: 100%;}
+#aside1 {grid-area: aside1; background: mintcream;}
+#aside2 {grid-area: aside2; background: lavender;}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns:
+   1fr       2fr       1fr;
+  grid-template-areas:
+  "heady     heady     heady"
+  "navvy     navvy     navvy"
+  "aside1    mainy     aside2"
+  "aside1    mainy     aside2"
+  "aside1    mainy     aside2"
+  "footy     footy     footy";
+}
+
+header,
+nav,
+main,
+aside,
+footer {
+  padding: 1.5em;
+  border: 1px black solid;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
