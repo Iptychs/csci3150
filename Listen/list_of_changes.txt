@@ -1,0 +1,10 @@
+HTML:
+Changed page title to "Home | The Listen Foundation"
+Removed empty tags
+Removed empty links
+Changed the h4 headers to h3 so they are correctly ordered in the strucutre
+Grouped a few links on the "Programs" navigation bar so that it won't go off the screen
+Restructured the page footer
+
+Recommended CSS:
+CSS file provided contains changes recommended to be added to the official CSS
