@@ -5,6 +5,7 @@ Removed empty links
 Changed the h4 headers to h3 so they are correctly ordered in the strucutre
 Grouped a few links on the "Programs" navigation bar so that it won't go off the screen
 Restructured the page footer
+Changed contrast of navigation bar to fit usual standards
 
 Recommended CSS:
 CSS file provided contains changes recommended to be added to the official CSS
